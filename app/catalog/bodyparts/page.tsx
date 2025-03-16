@@ -81,8 +81,8 @@ const BodypartsPage = () => {
                 </div>
               </CardContent>
               <CardFooter className="mt-auto px-4 py-2 w-full">
-                <div className="flex flex-wrap justify-between w-full">
-                  <Link href={bodyPartsItem.href} className="flex-1 mr-2">
+                <div className="card-buttons flex flex-wrap justify-between w-full">
+                  <Link href={bodyPartsItem.href} className="order-button flex-1 mr-2">
                     <Button className="w-full bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
                       Заказать
                     </Button>

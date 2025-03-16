@@ -127,11 +127,12 @@ body {
   cursor: not-allowed;
 }
 
-@media (max-width: 375px) {
-  .about-button {
+@media (max-width: 1024px) {
+  .card-buttons {
+    gap: 0.5rem;
+  }
+  .about-button, .order-button {
     margin-right: 0;
   }
-  .price-button {
-    margin-top: 1rem;
-  }
+
 }
