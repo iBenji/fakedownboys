@@ -3,22 +3,24 @@ import { Badge } from "@/components/ui/badge";
 
 export const newsItems = [
   {
-    title: "Блок управления сиденьями",
+    title: "Воздухозаборник в ПТФ",
     href: "/docs/primitives/alert-dialog",
     description:
-      "Блок управления собственного производства под наши кастомные сиденья",
-    badge: <Badge variant="default">Новое</Badge>,
+      "Появились в наличии воздухозаборники ПТФ для BMW E36",
+    badge: <Badge variant="default">E36</Badge>,
   },
   {
-    title: "Кнопки подогрева сиденья",
+    title: "BiXenon крепления ПТФ",
     href: "/docs/primitives/hover-card",
-    description: "В наличии копии оригинальных кнопок подогрева сиденья",
+    description: "В наличии переходники для BMW E34 Bixenon",
+    badge: <Badge variant="default">E34</Badge>,
   },
   {
-    title: "Кнопки подкачки спинки сиденья",
-    href: "/docs/primitives/progress",
+    title: "BiLed крепления ближнего света",
+    href: "/catalog/bodyparts",
     description:
-      "Появились в наличии копии оригинальных кнопок подкачки спинки сиденья",
+      "Новые крепления ближнего света BiLed для BMW E34",
+      badge: <Badge variant="default">E34</Badge>,
   },
 ];
 
@@ -32,7 +34,7 @@ export const saloonItems = [
       "Клипсы пластика передних динамиков, находится в ногах переднего пассажира и водителя",
     //badge: <Badge variant="default">Новое</Badge>,
     inStock: <Badge variant="default">В наличии</Badge>,
-    image: "/images/saloon1.png", // Добавьте путь к изображению
+    image: "/images/saloon1.png",
   },
   {
     title: "Заглушки болтов дверных карт",
@@ -42,7 +44,7 @@ export const saloonItems = [
     description:
       "Заглушки болтов дверных карт, отличная замена оригинальным заглушкам",
     inStock: <Badge variant="default">В наличии</Badge>,
-    image: "/images/saloon2.png", // Добавьте путь к изображению
+    image: "/images/saloon2.png",
   },
   {
     title: "Клипса задней панели",
@@ -51,7 +53,7 @@ export const saloonItems = [
     priceDescription: "Цена за 1 шт.",
     description: "Находится в задней части автомобиля",
     inStock: <Badge variant="default">В наличии</Badge>,
-    image: "/images/saloon3.png", // Добавьте путь к изображению
+    image: "/images/saloon3.png",
   },
   {
     title: "Клипса обшивки багажника",
@@ -61,7 +63,7 @@ export const saloonItems = [
     description:
       "Клипса обшивки багажника для фиксации карпета багажного отделения",
     inStock: <Badge variant="default">В наличии</Badge>,
-    image: "/images/saloon4.png", // Добавьте путь к изображению
+    image: "/images/saloon4.png",
   },
   {
     title: "Воздушный дефлектор под датчик",
@@ -71,7 +73,7 @@ export const saloonItems = [
     description:
       "Центральный воздушный дефлектор под датчик 52мм, отлично подойдет для тюнинга автомобиля",
     inStock: <Badge variant="default">В наличии</Badge>,
-    image: "/images/saloon5.png", // Добавьте путь к изображению
+    image: "/images/saloon5.png",
   },
   {
     title: "Клипса лобового стекла",
@@ -81,7 +83,7 @@ export const saloonItems = [
     description:
       "A popup that displays information related to an element when the element receives keyboard focus or the mouse hovers over it.",
     inStock: <Badge variant="default">В наличии</Badge>,
-    image: "/images/saloon6.png", // Добавьте путь к изображению
+    image: "/images/saloon6.png",
   },
 ];
 
@@ -89,7 +91,8 @@ export const bodyPartsItems = [
   {
     title: "Воздухозаборник в ПТФ",
     href: "https://t.me/trepang666",
-    price: "1840 ₽",
+    abouthref: "https://t.me/fakedownboysprints/25?single",
+    price: "1490 ₽",
     priceDescription: "Цена за 1 шт.",
     badge: <Badge variant="default">E36</Badge>,
     inStock: <Badge variant="default">В наличии</Badge>,
@@ -100,6 +103,7 @@ export const bodyPartsItems = [
   {
     title: "BiLed крепления ближнего света",
     href: "https://t.me/trepang666",
+    abouthref: "https://t.me/fakedownboysprints/20",
     price: "1990 ₽",
     priceDescription: "Цена за 1 комплект (Л + П).",
     badge: <Badge variant="default">E34</Badge>,
@@ -111,6 +115,7 @@ export const bodyPartsItems = [
   {
     title: "BiXenon крепления ПТФ",
     href: "https://t.me/trepang666",
+    abouthref: "https://t.me/trepang666",
     price: "1990 ₽",
     priceDescription: "Цена за 1 комплект (Л + П).",
     badge: <Badge variant="default">E34</Badge>,

@@ -15,6 +15,7 @@ import Link from "next/link";
 import { useState } from "react";
 import ReactPaginate from "react-paginate";
 import * as Tooltip from "@radix-ui/react-tooltip";
+import TGIcon from "@/public/icons/Telegram.svg";
 
 interface bodyPartsItem {
   title: string;
@@ -24,6 +25,7 @@ interface bodyPartsItem {
   badge?: React.ReactNode;
   inStock?: React.ReactNode;
   href: string;
+  abouthref: string;
   price: string;
 }
 
@@ -82,6 +84,17 @@ const BodypartsPage = () => {
                   <Link href={bodyPartsItem.href} className="flex-1 mr-2">
                     <Button className="w-full bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
                       Заказать
+                    </Button>
+                  </Link>
+                  <Link href={bodyPartsItem.abouthref} className="flex-1 mr-2">
+                    <Button className="w-full bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+                      Подробнее
+                      <Image
+                        src={TGIcon}
+                        alt="Telegram"
+                        width={20}
+                        height={20}
+                      />
                     </Button>
                   </Link>
                   {/* Кнопка с Tooltip */}

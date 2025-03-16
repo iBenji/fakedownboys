@@ -9,7 +9,6 @@ import {
   NavigationMenuList,
   NavigationMenuTrigger,
 } from "@/components/ui/navigation-menu";
-import { navigationMenuTriggerStyle } from "@/components/ui/navigation-menu";
 import BMWLogo from "@/components/icons/bmw.png";
 import Image from "next/image";
 import { newsItems } from "@/app/itemsData"; // Импортируем newsItems
@@ -28,7 +27,7 @@ const news: {
 
 export default function header() {
   return (
-    <div className="flex row flex-wrap justify-start md:justify-center font-[family-name:var(--font-geist-sans)] ">
+    <div className="flex row flex-wrap justify-center md:justify-center font-[family-name:var(--font-geist-sans)] ">
       <header>
         <NavigationMenu>
           <NavigationMenuList>
@@ -87,13 +86,6 @@ export default function header() {
                   ))}
                 </ul>
               </NavigationMenuContent>
-            </NavigationMenuItem>
-            <NavigationMenuItem>
-              <Link href="/docs" legacyBehavior passHref>
-                <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                  Documentation
-                </NavigationMenuLink>
-              </Link>
             </NavigationMenuItem>
           </NavigationMenuList>
         </NavigationMenu>
