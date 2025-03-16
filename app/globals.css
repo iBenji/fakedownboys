@@ -126,3 +126,12 @@ body {
   color: #ccc;
   cursor: not-allowed;
 }
+
+@media (max-width: 375px) {
+  .about-button {
+    margin-right: 0;
+  }
+  .price-button {
+    margin-top: 1rem;
+  }
+}

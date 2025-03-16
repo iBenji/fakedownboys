@@ -1,4 +1,5 @@
 "use client";
+import "@/app/globals.css";
 import Header from "../../header";
 import {
   Card,
@@ -80,13 +81,13 @@ const BodypartsPage = () => {
                 </div>
               </CardContent>
               <CardFooter className="mt-auto px-4 py-2 w-full">
-                <div className="flex justify-between w-full">
+                <div className="flex flex-wrap justify-between w-full">
                   <Link href={bodyPartsItem.href} className="flex-1 mr-2">
                     <Button className="w-full bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
                       Заказать
                     </Button>
                   </Link>
-                  <Link href={bodyPartsItem.abouthref} className="flex-1 mr-2">
+                  <Link href={bodyPartsItem.abouthref} className="about-button flex-1 mr-2">
                     <Button className="w-full bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
                       Подробнее
                       <Image
@@ -101,7 +102,7 @@ const BodypartsPage = () => {
                   <Tooltip.Provider>
                     <Tooltip.Root>
                       <Tooltip.Trigger asChild>
-                        <Button className="flex-1 bg-transparent border border-green-500 hover:bg-transparent cursor-default text-white font-light py-2 px-4 rounded">
+                        <Button className="price-button flex-1 bg-transparent border border-green-500 hover:bg-transparent cursor-default text-white font-light py-2 px-4 rounded">
                           {bodyPartsItem.price}
                         </Button>
                       </Tooltip.Trigger>
