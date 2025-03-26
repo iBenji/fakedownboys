@@ -25,6 +25,7 @@ interface bodyPartsItem {
   priceDescription: string;
   badge?: React.ReactNode;
   inStock?: React.ReactNode;
+  art?: React.ReactNode;
   href: string;
   abouthref: string;
   price: string;
@@ -71,12 +72,15 @@ const BodypartsPage = () => {
                 <CardDescription className="text-sm text-muted-foreground">
                   {bodyPartsItem.description}
                 </CardDescription>
-                <div className="flex flex-row justify-between">
+                <div className="flex flex-col justify-between">
                   {bodyPartsItem.badge && (
                     <div className="mt-2">{bodyPartsItem.badge}</div>
                   )}
                   {bodyPartsItem.inStock && (
                     <div className="mt-2">{bodyPartsItem.inStock}</div>
+                  )}
+                  {bodyPartsItem.art && (
+                    <div className="mt-2">{bodyPartsItem.art}</div>
                   )}
                 </div>
               </CardContent>

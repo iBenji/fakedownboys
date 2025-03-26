@@ -24,6 +24,7 @@ interface SaloonItem {
   description: string;
   badge?: React.ReactNode;
   inStock?: React.ReactNode;
+  art?: React.ReactNode;
   href: string;
   price: string;
   priceDescription: string;
@@ -107,12 +108,15 @@ const SaloonPage = () => {
                 <CardDescription className="text-sm text-muted-foreground">
                   {saloonItem.description}
                 </CardDescription>
-                <div className="flex flex-row justify-between">
+                <div className="flex flex-col justify-between">
                   {saloonItem.badge && (
                     <div className="mt-2">{saloonItem.badge}</div>
                   )}
                   {saloonItem.inStock && (
                     <div className="mt-2">{saloonItem.inStock}</div>
+                  )}
+                  {saloonItem.art && (
+                    <div className="mt-2">{saloonItem.art}</div>
                   )}
                 </div>
               </CardContent>
