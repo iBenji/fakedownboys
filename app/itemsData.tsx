@@ -5,8 +5,7 @@ export const newsItems = [
   {
     title: "Воздухозаборник в ПТФ",
     href: "/docs/primitives/alert-dialog",
-    description:
-      "Появились в наличии воздухозаборники ПТФ для BMW E36",
+    description: "Появились в наличии воздухозаборники ПТФ для BMW E36",
     badge: <Badge variant="default">E36</Badge>,
   },
   {
@@ -18,9 +17,8 @@ export const newsItems = [
   {
     title: "BiLed крепления ближнего света",
     href: "/catalog/bodyparts",
-    description:
-      "Новые крепления ближнего света BiLed для BMW E34",
-      badge: <Badge variant="default">E34</Badge>,
+    description: "Новые крепления ближнего света BiLed для BMW E34",
+    badge: <Badge variant="default">E34</Badge>,
   },
 ];
 
@@ -86,11 +84,21 @@ export const saloonItems = [
     href: "https://t.me/trepang666",
     price: "15 ₽",
     priceDescription: "Цена за 1 шт.",
-    description:
-      "A popup that displays information related to an element when the element receives keyboard focus or the mouse hovers over it.",
+    description: "FAKEDOWNBOYS Prints | Печать запчастей для BMW E34, BMW E36",
     inStock: <Badge variant="default">В наличии</Badge>,
     art: <Badge variant="default">FBS00008</Badge>,
     image: "/images/saloon6.png",
+  },
+  {
+    title: "Площадка кнопки люка",
+    href: "https://t.me/trepang666",
+    price: "990 ₽",
+    priceDescription: "Цена за 1 шт.",
+    description: "Площадка кнопки люка из PET-G пластика. Отличная замена оригинальной площадки.",
+    badge: <Badge variant="default">E34</Badge>,
+    inStock: <Badge variant="destructive">Под заказ</Badge>,
+    art: <Badge variant="default">FBS00007</Badge>,
+    image: "/images/saloon7.jpg",
   },
 ];
 
