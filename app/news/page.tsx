@@ -10,11 +10,16 @@ import {
   
 import { newsItems } from "@/app/itemsData"; // Импортируем newsItems
 import { Button } from "@/components/ui/button";
+import Link from "next/link";
+import Image from "next/image";
+import TGIcon from "@/public/icons/Telegram.svg";
 
 interface NewsItem {
   title: string;
+  tgref?: string;
   description: string;
   badge?: React.ReactNode;
+  
 }
 
 const NewsPage = () => {
@@ -35,9 +40,17 @@ const NewsPage = () => {
             </CardContent>
             <CardFooter className="mt-auto">
               <div className="flex justify-end">
-                <Button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-                  Подробнее
-                </Button>
+              <Link href={newsItem.tgref || '#'} className="about-button flex-1 mr-2">
+                    <Button className="w-full bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+                      Подробнее
+                      <Image
+                        src={TGIcon}
+                        alt="Telegram"
+                        width={20}
+                        height={20}
+                      />
+                    </Button>
+                  </Link>
               </div>
             </CardFooter>
           </Card>

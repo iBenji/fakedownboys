@@ -4,19 +4,19 @@ import { Badge } from "@/components/ui/badge";
 export const newsItems = [
   {
     title: "Воздухозаборник в ПТФ",
-    href: "/docs/primitives/alert-dialog",
+    tgref: "https://t.me/fakedownboysprints/26",
     description: "Появились в наличии воздухозаборники ПТФ для BMW E36",
     badge: <Badge variant="default">E36</Badge>,
   },
   {
     title: "BiXenon крепления ПТФ",
-    href: "/docs/primitives/hover-card",
+    tgref: "https://t.me/fakedownboysprints/31",
     description: "В наличии переходники для BMW E34 Bixenon",
     badge: <Badge variant="default">E34</Badge>,
   },
   {
     title: "BiLed крепления ближнего света",
-    href: "/catalog/bodyparts",
+    tgref: "https://t.me/fakedownboysprints/21",
     description: "Новые крепления ближнего света BiLed для BMW E34",
     badge: <Badge variant="default">E34</Badge>,
   },
