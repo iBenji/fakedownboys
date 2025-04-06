@@ -76,7 +76,7 @@ export const saloonItems = [
       "Центральный воздушный дефлектор под датчик 52мм, отлично подойдет для тюнинга автомобиля",
     badge: <Badge variant="default">E34</Badge>,
     inStock: <Badge variant="default">В наличии</Badge>,
-    art: <Badge variant="default">FBS00014</Badge>,
+    art: <Badge variant="default">FBS00018</Badge>,
     image: "/images/saloon5.png",
   },
   {
@@ -99,6 +99,30 @@ export const saloonItems = [
     inStock: <Badge variant="destructive">Под заказ</Badge>,
     art: <Badge variant="default">FBS00007</Badge>,
     image: "/images/saloon7.jpg",
+  },
+  {
+    title: "Воздушный дефлектор под датчик ",
+    href: "https://t.me/trepang666",
+    price: "690 ₽",
+    priceDescription: "Цена за 1 шт.",
+    description:
+      "Боковой (маленький) воздушный дефлектор под датчик 52мм, отлично подойдет для тюнинга автомобиля",
+    badge: <Badge variant="default">E30</Badge>,
+    inStock: <Badge variant="destructive">Под заказ</Badge>,
+    art: <Badge variant="default">FBS00016</Badge>,
+    image: "/images/saloon9.jpg",
+  },
+  {
+    title: "Воздушный дефлектор под датчик",
+    href: "https://t.me/trepang666",
+    price: "430 ₽",
+    priceDescription: "Цена за 1 шт.",
+    description:
+      "Центральный (большой) воздушный дефлектор под датчик 52мм, отлично подойдет для тюнинга автомобиля",
+    badge: <Badge variant="default">E30</Badge>,
+    inStock: <Badge variant="destructive">Под заказ</Badge>,
+    art: <Badge variant="default">FBS00017</Badge>,
+    image: "/images/saloon8.jpg",
   },
 ];
 

@@ -14,7 +14,7 @@ import { newsItems } from "@/app/itemsData"; // Импортируем newsItems
 
 const news: {
   title: string;
-  href: string;
+  tgref: string;
   description: string;
   badge?: React.ReactNode;
 }[] = [
@@ -77,7 +77,7 @@ export default function header() {
                     <ListItem
                       key={newsItem.title}
                       title={newsItem.title}
-                      href={newsItem.href}
+                      href={newsItem.tgref}
                       badge={newsItem.badge}
                     >
                       {newsItem.description}
