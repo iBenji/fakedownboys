@@ -115,7 +115,7 @@ export const saloonItems = [
   {
     title: "Воздушный дефлектор под датчик",
     href: "https://t.me/trepang666",
-    price: "430 ₽",
+    price: "1290 ₽",
     priceDescription: "Цена за 1 шт.",
     description:
       "Центральный (большой) воздушный дефлектор под датчик 52мм, отлично подойдет для тюнинга автомобиля",
