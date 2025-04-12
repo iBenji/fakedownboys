@@ -146,7 +146,7 @@ export const saloonItems = [
     badge: <Badge variant="default">E30</Badge>,
     inStock: <Badge variant="destructive">Под заказ</Badge>,
     art: <Badge variant="default">FBS00019</Badge>,
-    image: "/images/saloon10.jpg",
+    image: "/images/saloon10.png",
   },
 ];
 
