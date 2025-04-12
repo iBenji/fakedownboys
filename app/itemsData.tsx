@@ -166,4 +166,17 @@ export const bodyPartsItems = [
       "BiXenon крепления ближнего света для BMW E34, это полная замена штатных креплений линз",
     image: "/images/bp3.jpg",
   },
+  {
+    title: "Резиновый уплотнитель рамки ноздрей",
+    href: "https://t.me/trepang666",
+    abouthref: "https://t.me/trepang666",
+    price: "300 ₽",
+    priceDescription: "Цена за 1 штуку.",
+    badge: <Badge variant="default">E34</Badge>,
+    inStock: <Badge variant="default">В наличии</Badge>,
+    art: <Badge variant="default">FBS00020</Badge>,
+    description:
+      "Резиновый уплотнитель, который невозможно купить отдельно, изначально он входит в комплект с новыми ноздрями по заводу.",
+    image: "/images/bp4.jpg",
+  },
 ];
