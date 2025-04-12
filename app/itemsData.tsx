@@ -3,6 +3,18 @@ import { Badge } from "@/components/ui/badge";
 
 export const newsItems = [
   {
+    title: "Уплотнитель рамки ноздрей для BMW E34",
+    tgref: "https://t.me/fakedownboysprints/42",
+    description: "Появились в наличии уплотнители рамки ноздрей для BMW E34",
+    badge: <Badge variant="default">E34</Badge>,
+  },
+  {
+    title: "Площадка для твиттеров для BMW E30",
+    tgref: "https://t.me/fakedownboysprints/40",
+    description: "Появились в наличии площадки для твиттеров для BMW E30",
+    badge: <Badge variant="default">E30</Badge>,
+  },
+  {
     title: "Воздухозаборник в ПТФ",
     tgref: "https://t.me/fakedownboysprints/26",
     description: "Появились в наличии воздухозаборники ПТФ для BMW E36",
