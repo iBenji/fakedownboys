@@ -142,7 +142,7 @@ export const saloonItems = [
     price: "1050 ₽",
     priceDescription: "Цена за 1 шт.",
     description:
-      "Площадка с передние двери E30 с отверстиями для твиттеров, для тюнинга автомобиля, под заказ доступны размеры 34, 36, 38 и 42мм",
+      "Площадка в передние двери E30 с отверстиями для твиттеров, для тюнинга автомобиля, под заказ доступны размеры 34, 36, 38 и 42мм",
     badge: <Badge variant="default">E30</Badge>,
     inStock: <Badge variant="destructive">Под заказ</Badge>,
     art: <Badge variant="default">FBS00019</Badge>,
@@ -180,7 +180,7 @@ export const bodyPartsItems = [
   {
     title: "BiXenon крепления ПТФ",
     href: "https://t.me/trepang666",
-    abouthref: "https://t.me/trepang666",
+    abouthref: "https://t.me/fakedownboysprints/31",
     price: "1990 ₽",
     priceDescription: "Цена за 1 комплект (Л + П).",
     badge: <Badge variant="default">E34</Badge>,
@@ -193,7 +193,7 @@ export const bodyPartsItems = [
   {
     title: "Резиновый уплотнитель рамки ноздрей",
     href: "https://t.me/trepang666",
-    abouthref: "https://t.me/trepang666",
+    abouthref: "https://t.me/fakedownboysprints/42",
     price: "300 ₽",
     priceDescription: "Цена за 1 штуку.",
     badge: <Badge variant="default">E34</Badge>,
