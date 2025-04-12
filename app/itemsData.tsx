@@ -124,6 +124,18 @@ export const saloonItems = [
     art: <Badge variant="default">FBS00017</Badge>,
     image: "/images/saloon8.jpg",
   },
+  {
+    title: "Площадка для твиттеров",
+    href: "https://t.me/trepang666",
+    price: "1050 ₽",
+    priceDescription: "Цена за 1 шт.",
+    description:
+      "Площадка с передние двери E30 с отверстиями для твиттеров, для тюнинга автомобиля, под заказ доступны размеры 34, 36, 38 и 42мм",
+    badge: <Badge variant="default">E30</Badge>,
+    inStock: <Badge variant="destructive">Под заказ</Badge>,
+    art: <Badge variant="default">FBS00019</Badge>,
+    image: "/images/saloon10.jpg",
+  },
 ];
 
 export const bodyPartsItems = [
