@@ -1,4 +1,5 @@
 import { ReactNode } from 'react';
+
 import { ThemeProvider } from "@/components/theme-provider";
 import type { Metadata } from "next";
 import localFont from "next/font/local";

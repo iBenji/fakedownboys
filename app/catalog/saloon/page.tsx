@@ -17,6 +17,7 @@ import ReactPaginate from "react-paginate";
 import * as Tooltip from "@radix-ui/react-tooltip";
 import Head from "next/head";
 import Script from "next/script";
+import { Analytics } from "@vercel/analytics/react";
 
 interface SaloonItem {
   title: string;
@@ -45,6 +46,7 @@ const SaloonPage = () => {
 
   return (
     <>
+    <Analytics />
       <Head>
         <title>Детали салона | Магазин запчастей для BMW</title>
         <meta

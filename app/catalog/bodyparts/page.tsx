@@ -17,6 +17,7 @@ import { useState } from "react";
 import ReactPaginate from "react-paginate";
 import * as Tooltip from "@radix-ui/react-tooltip";
 import TGIcon from "@/public/icons/Telegram.svg";
+import { Analytics } from "@vercel/analytics/react";
 
 interface bodyPartsItem {
   title: string;
@@ -46,6 +47,7 @@ const BodypartsPage = () => {
 
   return (
     <>
+    <Analytics />
       <Header />
       <main className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
         <div className="mb-4">Детали салона</div>
